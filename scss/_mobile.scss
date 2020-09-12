@@ -1,0 +1,77 @@
+@media only screen and (max-width: 768px) {
+  // Navbar Home
+  #navbar-home {
+    height: 100%;
+  } //End #navbar
+  
+  // Navbar Home
+  #navbar-section {
+    height: 100%;
+  } //End #navbar
+  
+  .navbar {
+    text-align: center;
+    .logo {
+      float: none;
+      padding-top: 0;
+    }
+    ul {
+      float: none;
+      li {
+        float: none;
+        a {
+          padding: 5px;
+        }
+      } //End li
+    } //End ul
+  } //End #navbar
+  
+  // Home 
+  #home {
+    text-align: center;
+    padding: 60px 0;
+    .home-wrap {
+      height: 100%;
+      flex-direction: column;
+      &-social {
+        padding: 20px;
+      } //End &-social
+    }
+  } //End #home
+  
+  // Features
+  #features {
+    height: 100%;
+    .features-wrap {
+      flex-direction: column;
+      &-small {
+        padding: 60px 0;
+        flex-basis: none;
+      }
+      &-large {
+        padding: 0;
+        flex-basis: none;
+        ul {
+          float: none;
+          padding-right: 0px;
+          text-align: center;
+        }
+      }
+    } //End .features-wrap
+  } //End #features
+
+  // Footer
+#mainfooter {
+  height: 100%;
+  display: none;
+}
+
+  .clr {
+    clear: both;
+  }
+  
+  // Contact
+  #contact {
+    width: 100%;
+  } //End #contact
+} //End @media
